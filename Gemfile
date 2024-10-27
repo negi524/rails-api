@@ -40,4 +40,6 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-
+gem "sorbet", "~> 0.5.11618", :group => :development
+gem "sorbet-runtime", "~> 0.5.11618"
+gem "tapioca", "~> 0.16.3", :groups => [:development, :test], require: false
